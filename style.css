@@ -6,7 +6,6 @@
 
 body{
   font-size: 1.2rem;
-  height: 100vh;
 
 }
 /* Animasi Kata */
@@ -801,6 +800,10 @@ footer{
     font-size: 70%;
   }
 
+  .hero{
+    height: 100vh;
+  }
+
   .hero h1{
     font-size: 2.7rem;
   }
@@ -841,6 +844,21 @@ footer{
     left: -13px;
     right: auto;
   }
+
+  /* story */
+  .story{
+    height: 100vh;
+  }
+
+  .story h2{
+    font-size: 2rem;
+  }
+
+  .story p{
+    font-size: 1rem;
+  }
+
+  
 
   /* youtube */
 
