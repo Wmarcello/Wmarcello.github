@@ -4,8 +4,9 @@
   --shadow: 0 2px 2px rgb(0 0 0 / 0.5);
 }
 
-body{
+html,body{
   font-size: 1.2rem;
+  overflow-x: hidden;
 
 }
 /* Animasi Kata */
@@ -807,10 +808,6 @@ footer{
 @media (max-width: 250px) {
   html{
     font-size: 70%;
-  }
-
-  .hero{
-    max-height: 30vh;
   }
 
   .home{
