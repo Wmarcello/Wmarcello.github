@@ -691,6 +691,12 @@ footer{
 }
 }
 
+@media (max-width: 768px){
+  .home{
+    display: none;
+  }
+}
+
 /* Laptop and desktop */
 @media (max-width: 992px) {
   html{
@@ -796,6 +802,9 @@ footer{
 
 /* Mobile */
 @media (max-width: 300px) {
+  .home{
+    display: none;
+  }
   html{
     font-size: 70%;
   }
