@@ -802,9 +802,6 @@ footer{
 
 /* Mobile */
 @media (max-width: 150px) {
-  .home{
-    display: none;
-  }
   html{
     font-size: 70%;
   }
@@ -818,21 +815,21 @@ footer{
   }
 
   .timeline::before{
-    left: 30px;
+    left: 20px;
 
   }
 
   .timeline li .timeline-img{
-     left: 15px;
-     margin-left: 42px;
+     left: 10px;
+     margin-left: 20px;
      top: 16px;
-     width: 85px;
-     height: 85px;
+     width: 30px;
+     height: 30px;
 
   }
 
   .timeline li .timeline-panel{
-    width: 300px;
+    width: 100px;
     float: right;
   }
 
