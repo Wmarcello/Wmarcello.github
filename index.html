@@ -546,6 +546,7 @@
     }
 
     function enableScroll() {
+      document.body.classList.add('scroll-enabled');
       window.onscroll = function() {};
       rootElement.style.scrollBehavior = 'smooth';
 

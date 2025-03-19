@@ -8,6 +8,11 @@ body{
   font-size: 1.2rem;
 
 }
+
+img{
+  max-width: 100%;
+  height: auto;
+}
 /* Animasi Kata */
 
 .hidden {
@@ -138,6 +143,9 @@ body{
   width: 100%;
   background-size: cover;
   background-position: center;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
   
 }
 
@@ -205,6 +213,10 @@ body{
   text-shadow: var(--shadow);
   font-weight: bold;
   color: #f14e95;
+}
+
+.navbar-toggler{
+  border: none;
 }
 
 .mynavbar .nav-link{
@@ -576,7 +588,11 @@ body{
 /* Akhir Story */
 
 /* Gallery */
-
+.gallery img{
+  width: 100%;
+  height: auto;
+  margin-bottom: 15px;
+}
 /* Akhir Gallery */
 
 /*  RSVP Kehadiran */
@@ -795,14 +811,18 @@ footer{
 
 
 /* Mobile */
-@media (max-width: 150px) {
+@media (max-width: 568px) {
   html{
     font-size: 70%;
   }
 
-  .hero{
-    height: 100vh;
-    display: block;
+  .home{
+    padding: 20px;
+    font-size: 16px;
+  }
+
+  .couple{
+    flex-direction: column;
   }
 
   .hero h1{
