@@ -8,11 +8,6 @@ body{
   font-size: 1.2rem;
 
 }
-
-img{
-  max-width: 100%;
-  height: auto;
-}
 /* Animasi Kata */
 
 .hidden {
@@ -143,9 +138,6 @@ img{
   width: 100%;
   background-size: cover;
   background-position: center;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
   
 }
 
@@ -816,13 +808,27 @@ footer{
     font-size: 70%;
   }
 
-  .home{
-    padding: 20px;
-    font-size: 16px;
+  .hero{
+    height: 50vh;
   }
 
-  .couple{
-    flex-direction: column;
+  .home{
+    margin-top: 50px;
+  }
+
+  .p1 .pria{
+     margin-top: 200px;
+    padding: 3px;
+
+  }
+
+  .p1 .pria h4{
+    padding: 10px;
+    margin-top: 15px;
+  }
+
+  .p1 .pria a{
+    margin-top: 160px;
   }
 
   .hero h1{
@@ -867,18 +873,6 @@ footer{
   }
 
   /* story */
-  .story{
-    height: 100vh;
-  }
-
-  .story h2{
-    font-size: 2rem;
-  }
-
-  .story p{
-    font-size: 1rem;
-  }
-
 
 
   /* youtube */
