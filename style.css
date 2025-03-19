@@ -801,7 +801,7 @@ footer{
 
 
 /* Mobile */
-@media (max-width: 300px) {
+@media (max-width: 150px) {
   .home{
     display: none;
   }
