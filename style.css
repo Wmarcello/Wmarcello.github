@@ -810,7 +810,7 @@ footer{
   }
 
   .hero{
-    height: 50vh;
+    max-height: 30vh;
   }
 
   .home{
