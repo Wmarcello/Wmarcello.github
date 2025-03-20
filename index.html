@@ -493,31 +493,33 @@
 
     <script>
       // Preloader tampilan pertama
-  // Function to disable scrolling
-  document.addEventListener("DOMContentLoaded", function () {
+      document.addEventListener("DOMContentLoaded", function () {
   const preloader = document.getElementById('preloader');
   const hero = document.getElementById('hero');
-  
-  // Disable scrolling immediately when page loads
-  disableScroll();
-  
-  function disableScroll() {
-    document.body.style.overflow = 'hidden';
-    document.documentElement.style.overflow = 'hidden'; // Also prevent scrolling on html element
-  }
-  
-  function enableScroll() {
-    document.body.style.overflow = '';
-    document.documentElement.style.overflow = '';
-  }
+  const body = document.body;
 
+  // Disable scroll saat preloader aktif
+  body.classList.add('no-scroll');
+
+  // Tunggu 4 detik, lalu tampilkan teks preloader
+  setTimeout(() => {
+    preloader.querySelector('.preloader-content').innerHTML = `
+      <h1>The Weeding of</h1>
+      <h1>Michael Chandra & Lourensia Sallen</h1>
+    `;
+  }, 1000); // Ganti 1000 dengan waktu yang Anda inginkan (dalam milidetik)
+
+  // Tunggu 4 detik, lalu hilangkan preloader dan tampilkan hero
   setTimeout(() => {
     preloader.style.display = 'none';
-    hero.classList.add('show');
-    // Enable scrolling after preloader is gone
-    enableScroll();
-  }, 4000);
-}); 
+    hero.style.display = 'flex'; // Tampilkan hero
+  }, 4000); // Ganti 4000 dengan waktu yang Anda inginkan (dalam milidetik)
+});
+
+// Fungsi untuk mengaktifkan scroll setelah tombol "LET'S OPEN" diklik
+function enableScroll() {
+  document.body.classList.remove('no-scroll');
+}
   </script>
 
 <script>
