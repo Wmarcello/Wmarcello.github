@@ -744,7 +744,7 @@ html{
 }
 
 .timeline::before{
-  left: -5px;
+  left: 20px;
 
 }
 
@@ -752,13 +752,14 @@ html{
    left: 15px;
    margin-left: 15px;
    top: 16px;
-   width: 30px!important;
-   height: 30px!important;
+   width: 20px!important;
+   height: 20px!important;
 
 }
 
 .timeline li .timeline-panel{
-  width: 60%!important;
+  width: 50%!important;
+  padding-right: 10px;
   float: right;
 }
 
