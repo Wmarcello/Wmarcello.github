@@ -493,41 +493,37 @@
 
     <script>
       // Preloader tampilan pertama
-      document.addEventListener("DOMContentLoaded", function () {
+  document.addEventListener("DOMContentLoaded", function (){
   const preloader = document.getElementById('preloader');
-  const hero = document.getElementById('hero');
+  const Hero = document.getElementById('hero');
   const preloaderHeight = preloader.offsetHeight;
 
   // Function to disable scrolling
-  function disableScroll() {
-    // Prevent scrolling on the body
-    document.body.style.overflow = 'hidden';
-    
-    // Additional measures to prevent scrolling
-    document.body.style.position = 'fixed';
-    document.body.style.width = '100%';
-    document.body.style.height = '100%';
-    
-    // Prevent touch scrolling on mobile devices
-    document.addEventListener('touchmove', function(e) {
-      e.preventDefault();
-    }, { passive: false });
-    
-    // Prevent mousewheel scrolling
-    document.addEventListener('wheel', function(e) {
-      e.preventDefault();
-    }, { passive: false });
-  }
-
-  // Call disableScroll immediately when page loads
+  document.addEventListener("DOMContentLoaded", function () {
+  const preloader = document.getElementById('preloader');
+  const hero = document.getElementById('hero');
+  
+  // Disable scrolling immediately when page loads
   disableScroll();
+  
+  function disableScroll() {
+    document.body.style.overflow = 'hidden';
+    document.documentElement.style.overflow = 'hidden'; // Also prevent scrolling on html element
+  }
+  
+  function enableScroll() {
+    document.body.style.overflow = '';
+    document.documentElement.style.overflow = '';
+  }
 
   setTimeout(() => {
     preloader.style.display = 'none';
     hero.classList.add('show');
+    // Enable scrolling after preloader is gone
+    enableScroll();
   }, 4000);
-});
-    </script>
+})}); 
+  </script>
 
 <script>
   // Countdown
@@ -580,6 +576,15 @@
   const audioicon = document.querySelector('.audio-icon-wrapper i');
   const song = document.querySelector('#song');
   let isplaying = false;
+/*************  ✨ Codeium Command ⭐  *************/
+  /**
+   * Disable scroll by setting window.onscroll to a function that 
+   * always scrolls back to the original position. Also set rootElement.style.scrollBehavior = 'auto'.
+   * @function
+   * @inner
+   */
+ 
+/******  c92c813b-8296-4280-9e36-98a14fa4909f  *******/
   function disableScroll() {
   scrollTop = window.pageYOffset || document.documentElement.scrollTop;
   scrollLeft = window.pageXOffset || document.documentElement.scrollLeft;
@@ -782,7 +787,7 @@ setInterval(changeBackground, 3000);
 
     galleryItems.forEach((el) => observer.observe(el));
   });
+
 </script>
-  
   </body>
 </html>
