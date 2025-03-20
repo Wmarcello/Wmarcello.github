@@ -850,6 +850,13 @@ footer{
     font-size: 70%;
   }
 
+  #preloader{
+    text-align: center;
+    height: auto;
+    width: 100%;
+    justify-content: center;
+  }
+
   /* Home */
   .home{
     margin-top: 70px;
