@@ -503,11 +503,12 @@
 
   // Tunggu 4 detik, lalu tampilkan teks preloader
   setTimeout(() => {
+    preloader.style.display = 'block';
     preloader.querySelector('.preloader-content').innerHTML = `
       <h1>The Weeding of</h1>
       <h1>Michael Chandra & Lourensia Sallen</h1>
     `;
-  }, 1000); // Ganti 1000 dengan waktu yang Anda inginkan (dalam milidetik)
+  }, 3000); // Ganti 1000 dengan waktu yang Anda inginkan (dalam milidetik)
 
   // Tunggu 4 detik, lalu hilangkan preloader dan tampilkan hero
   setTimeout(() => {
