@@ -493,11 +493,6 @@
 
     <script>
       // Preloader tampilan pertama
-  document.addEventListener("DOMContentLoaded", function (){
-  const preloader = document.getElementById('preloader');
-  const Hero = document.getElementById('hero');
-  const preloaderHeight = preloader.offsetHeight;
-
   // Function to disable scrolling
   document.addEventListener("DOMContentLoaded", function () {
   const preloader = document.getElementById('preloader');
@@ -522,7 +517,7 @@
     // Enable scrolling after preloader is gone
     enableScroll();
   }, 4000);
-})}); 
+}); 
   </script>
 
 <script>
@@ -576,15 +571,6 @@
   const audioicon = document.querySelector('.audio-icon-wrapper i');
   const song = document.querySelector('#song');
   let isplaying = false;
-/*************  ✨ Codeium Command ⭐  *************/
-  /**
-   * Disable scroll by setting window.onscroll to a function that 
-   * always scrolls back to the original position. Also set rootElement.style.scrollBehavior = 'auto'.
-   * @function
-   * @inner
-   */
- 
-/******  c92c813b-8296-4280-9e36-98a14fa4909f  *******/
   function disableScroll() {
   scrollTop = window.pageYOffset || document.documentElement.scrollTop;
   scrollLeft = window.pageXOffset || document.documentElement.scrollLeft;
