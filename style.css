@@ -752,13 +752,13 @@ html{
    left: 15px;
    margin-left: 15px;
    top: 16px;
-   width: 100px;
-   height: 100px;
+   width: 100px!important;
+   height: 100px!important;
 
 }
 
 .timeline li .timeline-panel{
-  width: 400px;
+  width: 100%!important;
   float: right;
 }
 
