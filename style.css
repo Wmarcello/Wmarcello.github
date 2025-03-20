@@ -900,9 +900,13 @@ footer{
   .timeline li .timeline-img{
      left: 20px;
      top: 1rem;
-     width: 60px;
-     height: 60px;
+     width: 70px;
+     height: 70px;
 
+  }
+
+  .timeline-body p{
+    font-size: 0.8rem;
   }
   .timeline li .timeline-panel{
     width: calc(100% - 80px);
@@ -954,9 +958,6 @@ footer{
   
   /* Footer */
 
-  footer{
-    margin-top: 10px;
-  }
 
 
 
