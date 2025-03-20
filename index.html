@@ -623,7 +623,7 @@
           if (entry.isIntersecting) {
             setTimeout(() => {
               entry.target.classList.add("show");
-            }, index * 600);
+            }, index * 700);
             observer.unobserve(entry.target);
           }
         });
@@ -698,13 +698,13 @@ setInterval(changeBackground, 3000);
         if (entry.isIntersecting) {
           setTimeout(() => {
             entry.target.classList.add("show");
-          }, index * 500); // Delay 300ms per elemen
+          }, index * 600); // Delay 600ms per elemen
           observer.unobserve(entry.target); // Hentikan observasi setelah animasi muncul
         }
       });
     },
     {
-      threshold: 0.3, // Persentase elemen yang harus terlihat (0.5 = 50%)
+      threshold: 0.5, // Persentase elemen yang harus terlihat (0.5 = 50%)
     }
   );
 
@@ -723,7 +723,7 @@ setInterval(changeBackground, 3000);
           if (entry.isIntersecting) {
             setTimeout(() => {
               entry.target.classList.add("show");
-            }, index * 500); // Delay 300ms per elemen
+            }, index * 700); // Delay 300ms per elemen
             observer.unobserve(entry.target);
           }
         });

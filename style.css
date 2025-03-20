@@ -821,7 +821,7 @@ footer{
 
   /* Penggantin pria */
   .p1 .pria{
-     margin-top: 400px;
+     margin-top: 650px;
     padding: 4px;
 
   }
@@ -832,7 +832,7 @@ footer{
   }
 
   .p1 .pria a{
-    margin-top: 350px;
+    margin-top: 600px;
   }
 /* Penggantin wanita */
 
@@ -846,16 +846,16 @@ footer{
   }
 
   .timeline::before{
-    left: 30px;
+    left: 60px;
 
   }
 
   .timeline li .timeline-img{
      left: 10px;
-     margin-left: 45px;
-     top: 5px;
-     width: 40px;
-     height: 40px;
+     margin-left: -60px;
+     top: 1rem;
+     width: 50px;
+     height: 50px;
 
   }
 
