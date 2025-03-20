@@ -512,8 +512,8 @@ html,body{
 }
 
 .timeline li .timeline-img{
-  width: 50px;
-  height: 50px;
+  width: 120px;
+  height: 120px;
   background-color: var(--pink);
   position: absolute;
   left: 50%;
@@ -525,7 +525,7 @@ html,body{
 }
 
 .timeline li .timeline-panel{
-  width: 30%;
+  width: 40%;
   float: left;
   border: 1px solid var(--pink);
   position: relative;
@@ -838,7 +838,7 @@ footer{
 
 /* Hero */
   .hero h1{
-    font-size: 2.7rem;
+    font-size: 2rem;
   }
   .mynavbar .nav-link{
     font-size: 1.5rem;
@@ -850,18 +850,22 @@ footer{
 
   }
 
+  .timeline{
+    flex-direction: column;
+    align-items: center;
+  }
+
   .timeline li .timeline-img{
      left: 10px;
-     margin-left: -60px;
      top: 1rem;
-     width: 50px;
-     height: 50px;
+     width: 80px;
+     height: 80px;
 
   }
 
   .timeline li .timeline-panel{
-    width: 50px;
-    float: right;
+    width: 100%;
+    text-align: center;
   }
 
   .timeline li .timeline-panel::before{
