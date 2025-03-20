@@ -850,7 +850,7 @@ footer{
 
 
 /* Mobile */
-@media (max-width: 250px) {
+@media (max-width: 300px) {
   html{
     font-size: 70%;
   }
