@@ -512,8 +512,8 @@ html,body{
 }
 
 .timeline li .timeline-img{
-  width: 120px;
-  height: 120px;
+  width: 50px;
+  height: 50px;
   background-color: var(--pink);
   position: absolute;
   left: 50%;
@@ -525,7 +525,7 @@ html,body{
 }
 
 .timeline li .timeline-panel{
-  width: 40%;
+  width: 30%;
   float: left;
   border: 1px solid var(--pink);
   position: relative;
