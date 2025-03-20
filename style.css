@@ -888,7 +888,7 @@ footer{
   }
 
   .timeline::before{
-    left: 40px;
+    left: 10px;
 
   }
 
@@ -900,14 +900,20 @@ footer{
   .timeline li .timeline-img{
      left: 20px;
      top: 1rem;
-     width: 100px;
-     height: 100px;
-     transform: translateX(50%);
+     width: 60px;
+     height: 60px;
 
   }
   .timeline li .timeline-panel{
-    width: 100%;
+    width: calc(100% - 80px);
     text-align: center;
+    float: right;
+    margin-left: 20px;
+    padding: 0.5rem;
+  }
+
+  .timeline li.timeline-inverted .timeline-panel {
+    float: right;
   }
 
   .timeline li .timeline-panel::before{

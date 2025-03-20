@@ -496,6 +496,10 @@
       document.addEventListener("DOMContentLoaded", function () {
   const preloader = document.getElementById('preloader');
   const hero = document.getElementById('hero');
+  const heroHeight = hero.offsetHeight;
+  const heroTop = hero.offsetTop;
+  const preloaderHeight = preloader.offsetHeight;
+
 
   setTimeout(() => {
     preloader.style.display = 'none';
