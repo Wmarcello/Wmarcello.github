@@ -144,7 +144,7 @@ body .no-scroll{
   top: 0;
   left: 0;
   width: 100%;
-  height: 100%;
+  height: 100vh;
   background-color: #000;
   display: flex;
   justify-content: center;
@@ -169,13 +169,7 @@ body .no-scroll{
   width: 100%;
   background-size: cover;
   background-position: center;
-  opacity: 1;
-  transition: opacity 1s ease-out;
   
-}
-
-.hero .show{
-  opacity: 1;
 }
 
 .hero h1{
