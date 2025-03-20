@@ -498,7 +498,29 @@
   const hero = document.getElementById('hero');
   const preloaderHeight = preloader.offsetHeight;
 
+  // Function to disable scrolling
+  function disableScroll() {
+    // Prevent scrolling on the body
+    document.body.style.overflow = 'hidden';
+    
+    // Additional measures to prevent scrolling
+    document.body.style.position = 'fixed';
+    document.body.style.width = '100%';
+    document.body.style.height = '100%';
+    
+    // Prevent touch scrolling on mobile devices
+    document.addEventListener('touchmove', function(e) {
+      e.preventDefault();
+    }, { passive: false });
+    
+    // Prevent mousewheel scrolling
+    document.addEventListener('wheel', function(e) {
+      e.preventDefault();
+    }, { passive: false });
+  }
 
+  // Call disableScroll immediately when page loads
+  disableScroll();
 
   setTimeout(() => {
     preloader.style.display = 'none';
