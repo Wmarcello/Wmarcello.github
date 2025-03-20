@@ -136,7 +136,7 @@ html,body{
 /* Preloader css */
 #preloader {
   position: fixed;
-  overflow-x: hidden;
+  overflow: hidden;
   top: 0;
   left: 0;
   width: 100%;
@@ -902,13 +902,12 @@ footer{
      top: 1rem;
      width: 100px;
      height: 100px;
+     transform: translateX(50%);
 
   }
-
   .timeline li .timeline-panel{
     width: 100%;
     text-align: center;
-    margin-left: 40px;
   }
 
   .timeline li .timeline-panel::before{
