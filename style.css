@@ -140,7 +140,6 @@ body .no-scroll{
 
 /* Preloader css */
 #preloader {
-  position: fixed;
   top: 0;
   left: 0;
   width: 100%;
@@ -155,7 +154,6 @@ body .no-scroll{
 }
 #preloader::before{
   content: '';
-  position: absolute;
   display: block;
 }
 .preloader-content {
