@@ -789,7 +789,7 @@ html{
 }
 
 .timeline li .timeline-panel{
-  width: 85%;
+  width: 200px;
   padding-right: 10px;
   float: right;
 }
@@ -886,14 +886,14 @@ footer{
   }
 
   .timeline::before{
-    left: 15px;
+    left: 10px;
 
   }
 
   .timeline li .timeline-img{
      top: 1rem;
-     width: 50px !important;
-     height: 50px !important;
+     width: 40px !important;
+     height: 40px !important;
 
   }
 
@@ -901,7 +901,7 @@ footer{
     font-size: 0.8rem;
   }
   .timeline li .timeline-panel{
-    width: 100%!important;
+    width: 85%!important;
     text-align: center;
     padding: 0.5rem;
   }
