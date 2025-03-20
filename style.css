@@ -886,14 +886,15 @@ footer{
   }
 
   .timeline::before{
-    left: 10px;
+    left: 5px;
 
   }
 
   .timeline li .timeline-img{
      top: 1rem;
-     width: 40px !important;
-     height: 40px !important;
+     width: 30px !important;
+     height: 30px !important;
+     margin-right: 10px;
 
   }
 
@@ -901,7 +902,7 @@ footer{
     font-size: 0.8rem;
   }
   .timeline li .timeline-panel{
-    width: 85%!important;
+    width: 80%!important;
     text-align: center;
     padding: 0.5rem;
   }
