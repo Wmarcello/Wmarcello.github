@@ -771,6 +771,10 @@ html{
 }
 #preloader{
   overflow-x: hidden;
+  text-align: center;
+  height: auto;
+  width: 100%;
+  justify-content: center;
 }
 
 /* Penggantin pria */
@@ -781,12 +785,16 @@ html{
   }
 
   .p1 .pria h4{
-    padding: 10px;
-    margin-top: 15px;
+    padding: 5px;
+    margin-top: 10px;
+  }
+
+  .p1 .pria .son-of{
+    margin-right: 30px;
   }
 
   .p1 .pria a{
-    margin-top: 300px;
+    margin-top: 250px;
   }
 /* Akhir */
 .mynavbar .nav-link{
@@ -803,8 +811,8 @@ html{
    left: 15px;
    margin-left: 20px;
    top: 16px;
-   width: 50px;
-   height: 50px;
+   width: 60px!important;
+   height: 60px!important;
 
 }
 
@@ -867,10 +875,7 @@ footer{
   }
 
   #preloader{
-    text-align: center;
-    height: auto;
-    width: 100%;
-    justify-content: center;
+   
   }
 
   /* Home */
@@ -898,8 +903,8 @@ footer{
 
   .timeline li .timeline-img{
      top: 1rem;
-     width: 30px !important;
-     height: 30px !important;
+     width: 30px;
+     height: 30px;
      margin-right: 10px;
 
   }
@@ -908,7 +913,7 @@ footer{
     font-size: 0.8rem;
   }
   .timeline li .timeline-panel{
-    width: 80%!important;
+    width: 80%;
     text-align: center;
     padding: 0.5rem;
   }
