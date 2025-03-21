@@ -770,12 +770,12 @@ html{
   font-size: 3rem;
 }
 #preloader{
-  display: none;
+  overflow-x: hidden;
 }
 
 /* Penggantin pria */
 .p1 .pria{
-  margin-top: 480px;
+  margin-top: 350px;
   padding: 4px;
 
   }
@@ -786,7 +786,7 @@ html{
   }
 
   .p1 .pria a{
-    margin-top: 400px;
+    margin-top: 300px;
   }
 /* Akhir */
 .mynavbar .nav-link{
