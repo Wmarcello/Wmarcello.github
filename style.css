@@ -771,10 +771,6 @@ html{
 }
 #preloader{
   overflow-x: hidden;
-  text-align: center;
-  height: auto;
-  width: 100%;
-  justify-content: center;
 }
 
 /* Penggantin pria */
