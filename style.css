@@ -868,7 +868,11 @@ footer{
   }
 
   #preloader{
-   
+   text-align: center;
+   justify-content: center;
+   height: auto;
+   width: 100%;
+   position: fixed;
   }
 
   /* Home */
