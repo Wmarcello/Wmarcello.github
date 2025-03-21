@@ -769,10 +769,13 @@ html{
 .hero h1{
   font-size: 3rem;
 }
+#preloader{
+  display: none;
+}
 
 /* Penggantin pria */
 .p1 .pria{
-  margin-top: 550px;
+  margin-top: 480px;
   padding: 4px;
 
   }
@@ -783,7 +786,7 @@ html{
   }
 
   .p1 .pria a{
-    margin-top: 500px;
+    margin-top: 400px;
   }
 /* Akhir */
 .mynavbar .nav-link{
