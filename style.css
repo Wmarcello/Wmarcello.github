@@ -769,9 +769,6 @@ html{
 .hero h1{
   font-size: 3rem;
 }
-#preloader{
-  overflow-x: hidden;
-}
 
 /* Penggantin pria */
 .p1 .pria{
