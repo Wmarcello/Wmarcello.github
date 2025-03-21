@@ -769,6 +769,23 @@ html{
 .hero h1{
   font-size: 3rem;
 }
+
+/* Penggantin pria */
+.p1 .pria{
+  margin-top: 550px;
+  padding: 4px;
+
+  }
+
+  .p1 .pria h4{
+    padding: 10px;
+    margin-top: 15px;
+  }
+
+  .p1 .pria a{
+    margin-top: 500px;
+  }
+/* Akhir */
 .mynavbar .nav-link{
   font-size: 1.7rem;
   text-align: center;
@@ -859,21 +876,7 @@ footer{
   }
 
   /* Penggantin pria */
-  .p1 .pria{
-  margin-top: 8rem;
-
-  padding: 4px;
-
-  }
-
-  .p1 .pria h4{
-    padding: 10px;
-    margin-top: 15px;
-  }
-
-  .p1 .pria a{
-    margin-top: 8rem;
-  }
+  
 /* Penggantin wanita */
 
 /* Hero */
