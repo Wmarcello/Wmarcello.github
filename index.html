@@ -588,7 +588,6 @@ function enableScroll() {
     }
 
     function enableScroll() {
-      document.body.classList.add('scroll-enabled');
       window.onscroll = function() {};
       rootElement.style.scrollBehavior = 'smooth';
 
@@ -596,7 +595,7 @@ function enableScroll() {
     }
 
     function playaudio(){
-      song.volume= 0.4;
+      song.volume= 0.5;
       audioiconwrapper.style.display = 'flex';
       song.play();
       isplaying = true;
