@@ -754,9 +754,16 @@ footer{
     margin-top: 25px;
     line-height: 20px;
    }
-
+   
+   /* Penganin pria */
    .p1 .pria a{
-    margin-top: 180px;
+    margin-top: 230px;
+   }
+
+   /*  Gifts */
+   .gift{
+    margin-top: 50px;
+    
    }
    }
 
