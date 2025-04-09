@@ -800,9 +800,7 @@ html{
     margin-right: 40px;
   }
 
-  .p1 .pria h4 .son-of{
-    margin-right: -80px;
-  }
+
 
   .p1 .pria a{
     margin-top: 250px;
@@ -815,45 +813,53 @@ html{
 }
 
 .timeline::before{
-  left: 20px;
+  left: 50%;
 
 }
 
 .timeline li .timeline-img{
-   left: 15px;
-   margin-left: 20px;
-   top: 16px;
-   width: 60px;
-   height: 60px;
+   left: 50%;
+   margin-left: 0;
+   top: auto;
+   width: 120px;
+   height: 120px;
 
 }
 
 .timeline li .timeline-panel{
-  width: 80%;
-  padding-right: 10px;
-  float: right;
+  width: 40%;
+  padding: 2rem;
+  float: left;
 }
 
 .timeline li .timeline-panel::before{
-  border-left-width: 0;
-  border-right-width: 15px;
-  left: -15px;
-  right: auto;
+  border-left-width: 15px;
+  border-right-width: 0;
+  left: auto;
+  right: -15px;
 }
 
 .timeline li .timeline-panel::after{
-  border-left-width: 0;
-  border-right-width: 14px;
-  left: -13px;
-  right: auto;
+  border-left-width: 14px;
+  border-right-width: 0;
+  left: auto;
+  right: -13px;
+}
+/* heart */
+.home .heart {
+  display: flex; /* Show heart if hidden */
+  transform: translateY(245%); /* Original position */
+  width: 65px;
+  height: 65px;
 }
 
 /* Youtube */
 .youtube-video iframe {
-  height: 250px;
+  height: 300px;
 }
+
 .video-text {
-  font-size: 0.9rem;
+  font-size: 5rem;
   bottom: 10px;
   left: 10px;
   padding: 10px 15px;
@@ -861,10 +867,10 @@ html{
 }
 
 .video-text p{
-  font-size: 1rem;
-  margin-top: -190px;
-  margin-left: -30px;
-  text-align: center;
+  font-size: inherit;
+  margin-top: 0;
+  margin-left: 0;
+  text-align: left;
 
  }
 
@@ -929,7 +935,7 @@ footer{
     font-size: 0.8rem;
   }
   .timeline li .timeline-panel{
-    width: 60%;
+    width: 50%;
     text-align: center;
     padding: 0.5rem;
   }
