@@ -765,6 +765,32 @@ footer{
     margin-top: 50px;
     
    }
+   /* timeline */
+   .timeline {
+    /* tambahkan aturan CSS untuk membuat tampilan timeline sama dengan mobile dan tablet */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .timeline li {
+    /* tambahkan aturan CSS untuk membuat tampilan timeline sama dengan mobile dan tablet */
+    margin-bottom: 20px;
+  }
+  .timeline li .timeline-img {
+    /* tambahkan aturan CSS untuk membuat tampilan timeline sama dengan mobile dan tablet */
+    width: 30px;
+    height: 30px;
+    margin-right: 10px;
+  }
+  .timeline li .timeline-panel {
+    /* tambahkan aturan CSS untuk membuat tampilan timeline sama dengan mobile dan tablet */
+    width: 80%;
+    text-align: center;
+    padding: 0.5rem;
+  }
+
+   /* akhir timeline */
+
    }
 
 
@@ -811,13 +837,13 @@ html{
    left: 15px;
    margin-left: 20px;
    top: 16px;
-   width: 60px!important;
-   height: 60px!important;
+   width: 60px;
+   height: 60px;
 
 }
 
 .timeline li .timeline-panel{
-  width: 80%;
+  width: 150px;
   padding-right: 10px;
   float: right;
 }
