@@ -37,8 +37,8 @@
     <!-- Preloader Hitam -->
     <div id="preloader">
       <div class="preloader-content">
-        <h1 class="preloader"></h1>
-        <h1 class="preloader"></h1>
+        <h1 class="lead"></h1>
+        <h1 class="lead"></h1>
       </div>
     </div>
     <!-- Akhir Preloader -->
@@ -497,18 +497,6 @@
 
     <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.7/dist/gsap.min.js"></script>
 
-
-    <script>
-      //preloader kata-kata pertama
-      gsap.registerPlugin(TextPlugin);
-      gsap.to('.preloader', {
-        duration: 3,
-        delay: 300,
-        text: "WELCOME TO MY WEDDING\n Michael Chandra & Lourensia Sallen",
-        ease: "none",
-      })
-    </script>
-
     <script>
       // Preloader tampilan pertama
       document.addEventListener("DOMContentLoaded", function () {
@@ -533,6 +521,15 @@
     preloader.style.display = 'none';
     hero.style.display = 'flex'; // Tampilkan hero
   }, 4000); // Ganti 4000 dengan waktu yang Anda inginkan (dalam milidetik)
+
+  //preloader kata-kata pertama
+        gsap.registerPlugin(TextPlugin);
+      gsap.to('.lead', {
+        duration: 3,
+        delay: 300,
+        text: "WELCOME TO MY WEDDING\n Michael Chandra & Lourensia Sallen",
+        ease: "none",
+      })
 });
 
 // Fungsi untuk mengaktifkan scroll setelah tombol "LET'S OPEN" diklik
