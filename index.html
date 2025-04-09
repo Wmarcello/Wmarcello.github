@@ -514,6 +514,13 @@
     setTimeout(() => {
       preloader.classList.remove('show');
     }, 3000);
+    gsap.registerPlugin(TextPlugin);
+    gsap.to('.lead', {
+      duration: 3,
+      delay: 300,
+      text: "WELCOME TO MY WEDDING\n Michael Chandra & Lourensia Sallen",
+      ease: "none",
+    })
   })
 
   // Tunggu 4 detik, lalu hilangkan preloader dan tampilkan hero
@@ -522,14 +529,6 @@
     hero.style.display = 'flex'; // Tampilkan hero
   }, 4000); // Ganti 4000 dengan waktu yang Anda inginkan (dalam milidetik)
 
-  //preloader kata-kata pertama
-        gsap.registerPlugin(TextPlugin);
-      gsap.to('.lead', {
-        duration: 3,
-        delay: 300,
-        text: "WELCOME TO MY WEDDING\n Michael Chandra & Lourensia Sallen",
-        ease: "none",
-      })
 });
 
 // Fungsi untuk mengaktifkan scroll setelah tombol "LET'S OPEN" diklik
