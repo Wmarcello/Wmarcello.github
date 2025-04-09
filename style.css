@@ -828,11 +828,13 @@ html{
   }
 
   .p1 .pria .son-of{
-    margin-right: -50px;
+    margin-right: 40px;
+    padding-left: 70px;
   }
 
   .p1 .pria a{
     margin-top: 250px;
+
   }
 /* Akhir */
 .mynavbar .nav-link{
