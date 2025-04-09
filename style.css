@@ -730,10 +730,41 @@ footer{
   width: 50px;
   height: 50px;
 }
+
+.timeline li .timeline-panel{
+  margin-right: -10px;
+  margin-left: -10px;
+}
+
+.rsvp .btn{
+  margin: 0;
+}
+
+.rsvp .form-label .komentar{
+  margin-top: 25px;
+  line-height: 20px;
+ }
+ 
+ /* Penganin pria */
+ .p1 .pria a{
+  margin-top: 230px;
+ }
+
+ /*  Gifts */
+ .gift{
+  margin-top: 50px;
+  
+ }
+ /* timeline */
+ .timeline li .timeline-panel{
+  margin-right: -10px;
+  margin-left: -10px;
+}
+ /* akhir timeline */
 }
 
 /* Laptop and desktop */
-@media (min-width: 780px){
+@media (max-width: 992px) and (min-width: 760px){
   html{
     font-size: 85%;
   }
@@ -772,11 +803,6 @@ footer{
   }
    /* akhir timeline */
 
-   /* Penggantin pria */
-   .p1 .pria a{
-    margin-top: 150px;
-   }
-
    }
 
 
@@ -802,7 +828,7 @@ html{
   }
 
   .p1 .pria .son-of{
-    margin-right: 20px;
+    margin-right: -50px;
   }
 
   .p1 .pria a{
