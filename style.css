@@ -797,8 +797,7 @@ html{
   }
 
   .p1 .pria .son-of{
-    margin-right: 30px;
-    padding: 10px;
+    padding: 5px;
     
   }
 
@@ -820,9 +819,9 @@ html{
 }
 
 .timeline li .timeline-img{
-   left: 20px;
+   left: 30px;
    margin-left: 0;
-   top: -30px;
+   top: 1rem;
    width: 60px;
    height: 60px;
 
