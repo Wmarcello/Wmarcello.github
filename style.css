@@ -733,7 +733,7 @@ footer{
 }
 
 /* Laptop and desktop */
-@media (max-width: 992px) {
+@media (min-width: 780px){
   html{
     font-size: 85%;
   }
@@ -802,7 +802,7 @@ html{
   }
 
   .p1 .pria .son-of{
-    margin-right: 100px;
+    margin-right: 20px;
   }
 
   .p1 .pria a{
@@ -872,7 +872,7 @@ html{
 
 /* Footer */
 footer{
-  margin-top: 10px;
+  margin-top: 5px;
 }
 
 
