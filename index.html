@@ -27,14 +27,18 @@
       <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
        <!-- Akhir Icons -->
 
+      <!-- GSAP TEXT -->
+       <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/gsap@3.12.7/dist/TextPlugin.min.js">
+       <!-- Akhir Gsap Text -->
+
   </head>
   <body>
 
     <!-- Preloader Hitam -->
     <div id="preloader">
       <div class="preloader-content">
-        <h1>The Weeding of</h1>
-        <h1>Michael Chandra & Lourensia Sallen</h1>
+        <h1 class="preloader">The Weeding of</h1>
+        <h1 class="preloader">Michael Chandra & Lourensia Sallen</h1>
       </div>
     </div>
     <!-- Akhir Preloader -->
@@ -490,6 +494,20 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
 
     <script src="https://cdn.jsdelivr.net/npm/bs5-lightbox@1.8.3/dist/index.bundle.min.js"></script>
+
+
+    <script>
+      //preloader kata-kata pertama
+      gsap.registerPlugin(TextPlugin);
+      gsap.to("preloader", {
+        duration: 3,
+        delay: 300,
+        text: "WELCOME TO MY WEDDING",
+        text: "Michael Chandra & Lourensia Sallen",
+        ease: "none",
+        repeat: -1
+      })
+    </script>
 
     <script>
       // Preloader tampilan pertama
